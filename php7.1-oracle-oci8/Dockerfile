@@ -3,6 +3,9 @@ RUN mkdir /root/app
 WORKDIR /root/app
 EXPOSE 8000
 
+# Repository/Image Maintainer
+MAINTAINER Carlos Fiori <carlosfiori@gmail.com>
+
 RUN echo "---> Installing Composer" && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
