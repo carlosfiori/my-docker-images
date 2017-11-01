@@ -1,10 +1,15 @@
 ---------------
 # Connection info:
 SID: XE
+
 USER: user_db
+
 PASSWORD: 1234
+
 PORT: 1521
+
 DATABASE: database
+
 ---------------
 # Example for use:
 
